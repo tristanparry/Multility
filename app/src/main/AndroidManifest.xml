@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.matdevtech.multility">
+    <!-- Add Access to Internet, to access external APIs -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup">
+        <activity
+            android:name=".NavigationBar"
+            android:label="Multility"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".PrivacyPolicy"
+            android:label="@string/priv_policy"
+            android:parentActivityName=".SettingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".TermsOfService"
+            android:label="@string/tos"
+            android:parentActivityName=".SettingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".About"
+            android:label="About"
+            android:parentActivityName=".SettingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="Information"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".TipCalculator"
+            android:label="Tip Calculator"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable"/>
+        <activity
+            android:name=".Notepad"
+            android:label="Notepad"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable"/>
+        <activity
+            android:name=".Stopwatch"
+            android:label="Stopwatch"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable"/>
+        <activity
+            android:name=".PasswordGenerator"
+            android:label="Password Generator"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable"/>
+        <activity
+            android:name=".DailyFact"
+            android:label="Fact Generator"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable"/>
+        <activity
+            android:name=".TrendingNews"
+            android:label="Trending News"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable"/>
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashScreenTheme"
+            android:screenOrientation="portrait"
+            tools:ignore="MissingClass">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="MissingClass"/>
+    </application>
+
+</manifest>
