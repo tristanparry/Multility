@@ -24,10 +24,4 @@ For your productivity needs, look no further than Multility!
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h3>Download Multility</h3>
-
-> [Google Play Store](https://play.google.com/store/apps/details?id=com.matdevtech.multility)
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 Multility -- Developed by MATDEV Technologies, 2020
