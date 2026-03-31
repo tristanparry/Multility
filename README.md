@@ -5,7 +5,7 @@
 
 <h3>One app, multiple utilities!</h3>
 
-Multility, by MATDEV Technologies, is a revolutionary app containing 6 utilities for your convenience and productivity.
+Multility, by MATDEV Technologies, is a revolutionary app containing six utilities for your convenience and productivity.
 
 Multility contains:
 >Tip Calculator
